@@ -1,3 +1,0 @@
-import Data from "../data.json";
-console.log(1);
-console.log(2);
