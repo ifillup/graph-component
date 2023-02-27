@@ -1,6 +1,6 @@
 const chart = document.querySelector(".chart");
 const chartLabels = document.querySelector(".chart-labels");
-const res = await fetch("../data.json");
+const res = await fetch(`${window.location}data.json`);
 const data = await res.json();
 let weeklySpend = 0;
 data.forEach((el) => {
